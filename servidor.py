@@ -6,7 +6,7 @@ import urllib.error
 import os
 
 SUPABASE_URL = "https://sfzleczdsorvfknjtzot.supabase.co"
-SUPABASE_KEY = "sb_publishable_mwswE0BY72bJ9T9drkZSaA_gU4EBqpm"
+SUPABASE_KEY = "sb_secret_y4yOyh9cKTIR8rKp8fLelQ_vbpcP145"
 
 def supabase_request(endpoint, method="GET", data=None, query_params=""):
     url = f"{SUPABASE_URL}/rest/v1/{endpoint}"
